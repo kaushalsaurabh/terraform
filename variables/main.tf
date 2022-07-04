@@ -41,6 +41,6 @@ resource "aws_vpc" "my-vpc" {
     }
 }
 
-output "amyoutput" {
+output "myoutput" {
     value = aws_vpc.my-vpc
 }
